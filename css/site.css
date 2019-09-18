@@ -19,6 +19,17 @@ body {
 	width: min-content;
 }
 
+.header-side {
+	margin: auto 1rem;
+	color: white;
+	width: min-content;
+	opacity: 0.75;
+}
+
+.hover-point:hover {
+	cursor: pointer;
+}
+
 h1 {
 	font-size: 3rem;
 	width: max-content;
