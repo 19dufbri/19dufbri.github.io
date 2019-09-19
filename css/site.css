@@ -30,6 +30,10 @@ body {
 	cursor: pointer;
 }
 
+.ta-c {
+	text-align: center;
+}
+
 h1 {
 	font-size: 3rem;
 	width: max-content;
