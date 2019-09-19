@@ -49,7 +49,33 @@ h1 {
 #main-site {
 	float: left;
 	overflow-y: scroll;
+	scrollbar-width: thin;
 	overflow-x: hidden;
 	height: 100vh;
 	width: 100vw;
+	background-image: url("../images/bg-pattern.png");
+	background-position: center center;
+}
+
+.content {
+	background-color: #fbfaf6;
+	width: 80%;
+	margin: 3rem auto;
+	padding: 2rem;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#content-side {
+	color: white;
+	width: min-content;
+	opacity: 0.75;
+	height: 100vh;
+	position: fixed;
+	display: flex;
+}
+
+#content-side * {
+	margin: auto 1rem;
 }
