@@ -1,7 +1,7 @@
 var stepcount = 30.0;
 
 function rightSlideClicked() {
-	// Slide to the Left! Slide to the Right!
+	// Slide to the Right!
 	var body = document.getElementById("cupid-shuffle");
 	var count = 0;
 
@@ -17,7 +17,7 @@ function rightSlideClicked() {
 }
 
 function leftSlideClicked() {
-    // Slide to the Left! Slide to the Right!
+    // Slide to the Left!
     var body = document.getElementById("cupid-shuffle");
     var count = stepcount;
 
