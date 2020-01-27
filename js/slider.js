@@ -1,8 +1,10 @@
 var stepcount = 30.0;
 
-function rightSlideClicked() {
+function slideToTheRight() {
 	// Slide to the Right!
-	var body = document.getElementById("cupid-shuffle");
+    body = document.getElementById("cha-cha-slide");
+    body.style = "margin-left: -100vw;"
+	/*var body = document.getElementById("cha-cha-slide");
 	var count = 0;
 
 	var timer = setInterval(function () {
@@ -13,12 +15,14 @@ function rightSlideClicked() {
         newpos = -100*(count/stepcount);
         body.style.marginLeft = newpos + "vw";
         count++;
-    }, 16.66);
+    }, 16.66);*/
 }
 
-function leftSlideClicked() {
+function slideToTheLeft() {
     // Slide to the Left!
-    var body = document.getElementById("cupid-shuffle");
+    body = document.getElementById("cha-cha-slide");
+    body.style = "margin-left: 0vw;"
+    /*var body = document.getElementById("cha-cha-slide");
     var count = stepcount;
 
     var timer = setInterval(function () {
@@ -29,5 +33,9 @@ function leftSlideClicked() {
         newpos = -100*(count/stepcount);
         body.style.marginLeft = newpos + "vw";
         count--;
-    }, 16.66);
+    }, 16.66);*/
+}
+
+function chaChaRealSmooth() {
+    window.location = "https://www.youtube.com/watch?v=wZv62ShoStY";
 }
