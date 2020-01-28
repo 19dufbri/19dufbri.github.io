@@ -1,5 +1,3 @@
-var stepcount = 30.0;
-
 function slideToTheRight() {
 	// Slide to the Right!
     body = document.getElementById("cha-cha-slide");
