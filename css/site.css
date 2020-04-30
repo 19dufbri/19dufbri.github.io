@@ -68,6 +68,7 @@ header ul {
 }
 
 header ul li {
+	font-family: "Noto Sans", "Arial", Arial, sans-serif;
 	margin-left: 2rem;
 }
 
