@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
     <meta charset="UTF-8">
     <title>Brian Duffy</title>
@@ -12,6 +12,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+    <script async src="/js/webpdetect.min.js"></script>
+    <script>
+        document.documentElement.classList.remove("no-js");
+    </script>
+
     <nav class="navbar position-absolute w-100 navbar-expand-lg navbar-dark bg-dark zi-1">
         <div class="container-fluid mx-md-5">
             <div class="flex-grow-1 d-block flex-basis-1"></div>
@@ -96,6 +101,5 @@
     </section>
 
     <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/webpdetect.min.js"></script>
 </body>
 </html>
