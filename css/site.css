@@ -1,138 +1,46 @@
-/* Background pattern from Toptal Subtle Patterns */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 body {
-	margin: 0px;
-	font-family: "Noto Sans", "Arial", Arial, sans-serif;
-	height: 100vh;
-	width: 100vw;
-	font-size: 18px;
+    font-family: 'Raleway', sans-serif !important;
 }
 
-html {
-	scrollbar-width: thin;
-	overflow-x: hidden;
+#site-hero {
+    background-image: url("/images/hero-index.jpg");
+    background-position: center center;
+    background-size: cover;
 }
 
-* {
-	box-sizing: border-box;
+#site-background {
+    background-image: url("/images/bg-pattern.png");
+    background-position: center center;
 }
 
-.ta-c {
-	text-align: center;
+.w-100-ni {
+    width: 100%;
 }
 
-#main-site {
-	width: 100vw;
-	background-image: url("../images/bg-pattern.png");
-	background-position: center center;
-	padding: 2rem;
+.zi-1 {
+    z-index: 1;
 }
 
-.content {
-	background-color: #fbfaf6;
-	width: 70%;
-	margin: 3rem auto;
-	padding: 3rem 8rem;
-	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+.flex-basis-1 {
+    flex-basis: 1em !important;
 }
 
-a {
-	color: inherit;
-	text-decoration: none;
+@media (min-width: 992px) {
+    .flex-basis-lg-1 {
+        flex-basis: 1em !important;
+    }
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
-header {
-	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
-	display: flex;
-	background-color: #333;
-	border-bottom: 2px solid #999;
-}
-
-header * {
-	display: inline-block;
-	color: #fff;
-}
-
-header h1 {
-	margin: .5rem 0rem;
-}
-
-header ul {
-	margin: auto 0rem;
-	margin-left: auto;
-}
-
-header ul li {
-	font-family: "Noto Sans", "Arial", Arial, sans-serif;
-	margin-left: 2rem;
-}
-
-.page-pic {
-	margin: -3rem -8rem 0rem -8rem;
-	height: 30rem;
-	
-	background-position: center center;
-	background-size: cover;
-
-	display: flex;
-}
-
-.document {
-	width: 100%;
-	height: 60rem;
-}
-
-#proj-list section {
-	border: solid 1px grey;
-	border-radius: 10px; 
-	background-color: #eee; 
-	margin-top: 2rem;
-}
-
-#proj-list section a {
-	display: flex;
-}
-
-.proj-pic {
-	display: inline-block;
-	width: 12rem;
-	height: 12rem;
-	background-position: center center;
-	background-size: cover;
-	border-right: 1px solid grey;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px; 
-	flex-shrink: 0;
-}
-
-.proj-desc {
-	margin-left: 2rem;
-	height: 12rem;
-	overflow: hidden;
-}
-
-#headshot {
-	width: 20rem;
-	height: 20rem;
-	float: right;
-	margin-left: 2rem;
-	margin-bottom: 2rem;
-}
-
-.hero-t {
-	margin: auto auto;
-	color: #fff;
-	text-align: center;
-}
-
-.hero-t h1 {
-	font-size: 3rem;
-	margin-bottom: 0rem;
+@media (min-width: 768px) {
+    .w-md-33 {
+        width: 33% !important;
+    }
+    .w-md-75 {
+        width: 75% !important;
+    }
+    .border-md-start {
+        border-left:var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+    }
 }
