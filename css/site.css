@@ -4,14 +4,28 @@ body {
     font-family: 'Raleway', sans-serif !important;
 }
 
-#site-hero {
+.no-webp #site-hero {
     background-image: url("/images/hero-index.jpg");
+}
+
+.webp #site-hero {
+    background-image: url("/images/hero-index.webp");
+}
+
+.no-webp #site-background {
+    background-image: url("/images/bg-pattern.png");
+}
+
+.webp #site-background {
+    background-image: url("/images/bg-pattern.webp");
+}
+
+#site-hero {
     background-position: center center;
     background-size: cover;
 }
 
 #site-background {
-    background-image: url("/images/bg-pattern.png");
     background-position: center center;
 }
 
