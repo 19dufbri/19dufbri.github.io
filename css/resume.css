@@ -28,10 +28,6 @@
     font-weight: normal;
 }
 
-#resume #contact-links a {
-    margin: 0 1rem;
-}
-
 #resume a {
     color: inherit !important;
     text-decoration: none !important;
