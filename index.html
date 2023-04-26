@@ -1,44 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>Brian Duffy</title>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <title>Brian Duffy - Home</title>
 
-		<!-- Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="/css/site.css" rel="stylesheet" />
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
 
-		<link rel="icon" type="image/png"  href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/" rel=preconnect>
 
-		<!-- Stylesheets -->
-		<link href="css/site.css" rel="stylesheet" type="text/css" />
-	</head>
-	<body id="cha-cha-slide">
-		<header>
-			<h1><a href="/">Brian Duffy <small>Career Portfolio</small></a></h1>
-			<ul>
-				<li><a href="/">Home</a></li>
-				<li><a href="/pages/goals.html">Career Goals</a></li>
-				<li><a href="/pages/projects">Projects</a></li>
-				<li><a href="/pages/resume.html">Resume</a></li>
-			</ul>
-		</header>
+    <link rel="icon" type="image/png"  href="/images/favicon.png">
 
-		<section id="main-site">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Student, Developer, Rower - Brian Duffy's
+        Personal Website and Career Portfolio.">
+</head>
+<body>
+    <script async src="/js/webpdetect.min.js"></script>
+    <script>
+        document.documentElement.classList.remove("no-js");
+    </script>
 
-			<section class="content">
-				<section class="page-pic" style="background-image: url('images/hero.jpg');">
-					<div class="hero-t">
-						<h1>Brian Duffy</h1>
-						<p>Ohio State CSE Student</p>
-					</div>
-				</section>
-				<br>
-				<h2>Brian Duffy's Career Portfolio</h2>
-				<hr />
-				<p>Welcome to my career portfolio, a roundup of my experiences and projects over the past few years. Here you’ll find several pages with information pertaining to various aspects of my professional career. Starting with a overview of my experiences on the home page, a declaration of my career goals, several of the projects that I think define my experiences with their own sub-pages and finally my resume.</p>
-				<p>I’ve studied for the past few years trying to understand the deeper foundations of computing through my school work at the Ohio State University, my personal projects, and my work with Audio Odyssey, a software development company started by me and a few friends. These experiences have given me a powerful toolkit to generate new and interesting solutions to existing problems and generate new ideas for products and platforms. I hope to expand my knowledge and experiences in the coming years and develop software professionally.</p>
-				<p>If you have questions or are interested in contacting me you can reach me at any time via my email at <u><a href="mailto:duffy.348@osu.edu">duffy.348@osu.edu</a></u>, I hope to hear from you and I’ll get back to you as soon as I can.</a></p>
-			</section>
-		</section>
-	</body>
+    <nav class="navbar position-absolute w-100 navbar-expand-lg navbar-dark bg-dark zi-1">
+        <div class="container-fluid mx-md-5">
+            <div class="flex-grow-1 d-block flex-basis-1"></div>
+            <a class="navbar-brand mx-auto m-lg-0" href="/">Brian Duffy</a>
+            <div class="flex-grow-1 flex-basis-1 d-flex d-lg-none d-block">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse flex-basis-lg-1" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="https://blog.brian-duffy.dev">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="vh-100 w-100" id="site-hero">
+        <div class="d-flex h-100">
+            <section class="my-auto mx-auto text-white fs-3 text-center fw-bold">
+                <h1>Brian Duffy</h1>
+                <p>Student, Developer, Rower</p>
+            </section>
+            <div class="position-absolute w-100 h-100 d-flex">
+                <a aria-label="Scroll Down the Page" class="mt-auto mb-3 mx-auto text-white text-decoration-none" href="#site-background">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                        <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-md-5 border-2 border-top border-light d-flex" id="site-background">
+        <section class="container-md bg-light p-5 w-md-75 w-100 fs-5">
+            <p>Welcome to my career portfolio, an overview of my experiences and projects over
+                the past few years. Here you’ll find projects - both professional and personal -
+                along with my resume, and a link to my blog where I discuss current tech that
+                interests me.</p>
+            <h3 class="mt-4">Profile</h3>
+            <hr>
+            <picture class="w-100-ni w-md-33 ms-md-5 mb-3 float-md-end">
+                <source type="image/webp" srcset="/images/profile.webp">
+                <img loading="lazy" class="w-100" src="/images/profile.jpg" alt="Headshot of Brian Duffy">
+            </picture>
+            <p>A senior in Computer Science & Engineering at <i>The</i> Ohio State University, I
+                have a range of experience and interests both technical and personal.</p>
+            <p>I've always been fascinated by computers from the first computer games I played
+                when I was a kid. At first, I played the games for fun, but as I got older I
+                began to wonder how they really worked inside. Little did I know but this
+                childhood curiosity would set me on a course that I still follow today. With
+                encouragement from a couple of amazing teachers, I embarked on a journey to
+                learn how computers work and build those same programs that amazed me as a
+                kid.</p>
+            <p>Since then, I've built a range of projects - both personally and
+                professionally - and explored a wide range of topics. From a beginning in HTML+
+                CSS, moving to helping found a software company with my friends after high
+                school, and my internships with Android and React, I've gathered experience
+                across technologies and disciplines.</p>
+            <p>Through these experiences I've also gained many soft-skills - communication,
+                project management, and leadership. Originally learned at a scout leadership
+                camp, I've learned through practice how to use these skills to accelerate
+                projects and encourage collaboration.</p>
+            <p>Aside from technology, I'm a collegiate rower with The Ohio State Crew and the
+                Safety & Equipment officer within that organization. This affords me the
+                opportunity to compete at a national level while also managing an equipment
+                portfolio of nearly $150,000.</p>
+            <p>If you have questions or are interested in contacting me you can reach me at
+                any time via my email at
+                <u><a href="mailto:contact@brian-duffy.dev">contact@brian-duffy.dev</a></u>,
+                I hope to hear from you, and I’ll get back to you as soon as I can.</p>
+        </section>
+    </section>
+
+    <script async src="/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
